@@ -5,7 +5,7 @@ import datetime
 import schedule 
 db = DBHelper()
 
-TOKEN = "1678774174:AAHmFP4s7mbbk2iMt3wkGFEzXO1z__mWQTY"
+TOKEN = "YOUR_BOT_TOKEN"
 URL  = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 def get_url(url):
